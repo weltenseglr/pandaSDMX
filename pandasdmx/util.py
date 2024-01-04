@@ -5,11 +5,12 @@ from enum import Enum
 from functools import lru_cache
 from typing import Any, Dict, Mapping, Tuple, TypeVar, Union
 
-import pydantic
 import requests
-from pydantic import Field, ValidationError, validator
-from pydantic.class_validators import make_generic_validator
-from pydantic.typing import get_origin  # type: ignore [attr-defined]
+
+from pydantic import v1 as pydantic
+from pydantic.v1 import Field, ValidationError, validator
+from pydantic.v1.class_validators import make_generic_validator
+from pydantic.v1.typing import get_origin  # type: ignore [attr-defined]
 
 try:
     import requests_cache

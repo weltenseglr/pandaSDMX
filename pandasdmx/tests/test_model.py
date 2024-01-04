@@ -1,8 +1,8 @@
 # TODO test str() and repr() implementations
 
-import pydantic
 import pytest
 from pytest import raises
+from pydantic import v1 as pydantic
 
 from pandasdmx import model
 from pandasdmx.model import (
