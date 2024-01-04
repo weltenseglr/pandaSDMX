@@ -3,6 +3,11 @@
 What's new?
 ===========
 
+v1.11.0 (unreleased)
+-------------------------
+
+* Update pydantic to >=2.5 using pydantic.v1 compatibility layer
+
 
 v1.10.0 (2023-02-25)
 -------------------------
